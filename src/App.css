@@ -1,0 +1,23 @@
+body {
+  background-color: #fff;
+  font-family: "Cubano", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(251, 255, 128, 0.244);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1050;
+}
+
+.tf-logo {
+  margin: 10px;
+  width: 400px;
+  position: relative;
+  left: calc(50% - 200px);
+}
